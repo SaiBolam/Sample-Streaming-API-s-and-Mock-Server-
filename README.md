@@ -6,6 +6,9 @@ Mock API for live streaming content management.
 
 ## Usage
 
+open terminal or the command prompt  run the commands below to startt the server 
+
+- server will start on the local host port 3000 'http://localhost:3000'
 - Start the server: `npm run dev`
 - Use `Bearer admin-token-123` or `Bearer viewer-token-456` for authentication.
 
@@ -25,6 +28,8 @@ Mock API for live streaming content management.
 - `GET    /api/streams/:id/health`
 
 ## restart server by killing all the sessions using below commnads in your terminal
+sometimes you may experince error while stopping and restarting server that means your server may be running on the same port else where on you local and in that sitaution just to save time you may kill the server and restart to do that follow the below steps
+
 - Open Command Prompt as Administrator and run:
 
   netstat -ano | findstr :3000
