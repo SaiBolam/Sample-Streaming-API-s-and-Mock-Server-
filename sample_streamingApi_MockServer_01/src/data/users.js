@@ -1,0 +1,16 @@
+module.exports = [
+  {
+    id: 'user-1',
+    email: 'admin@example.com',
+    name: 'Admin User',
+    role: 'admin',
+    token: 'admin-token-123'
+  },
+  {
+    id: 'user-2',
+    email: 'viewer@example.com',
+    name: 'Regular Viewer',
+    role: 'viewer',
+    token: 'viewer-token-456'
+  }
+];

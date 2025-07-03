@@ -1,0 +1,147 @@
+[
+  {
+    "id": "stream-1",
+    "contentId": "content-1",
+    "status": "ended",
+    "isLive": false,
+    "startTime": "2025-06-30T19:00:00Z",
+    "endTime": "2025-06-30T21:00:00Z",
+    "playbackUrl": "https://stream.example.com/live/stream-1.m3u8",
+    "rtmpUrl": "rtmp://ingest.example.com/live/stream-1",
+    "streamKey": "live_1234567890",
+    "variants": [
+      {
+        "id": "1080p",
+        "bitrate": 6000000,
+        "resolution": "1920x1080",
+        "codec": "h264"
+      },
+      {
+        "id": "720p",
+        "bitrate": 3000000,
+        "resolution": "1280x720",
+        "codec": "h264"
+      },
+      {
+        "id": "480p",
+        "bitrate": 1500000,
+        "resolution": "854x480",
+        "codec": "h264"
+      }
+    ],
+    "startedAt": "2025-07-01T14:40:27.273Z",
+    "endedAt": "2025-07-01T14:40:27.308Z"
+  },
+  {
+    "id": "stream-19563173-45b8-4bfd-8d10-5b153a37991a",
+    "contentId": "content-2",
+    "status": "active",
+    "isLive": true,
+    "startTime": "2025-07-02T10:00:00Z",
+    "endTime": "2025-07-02T12:00:00Z",
+    "playbackUrl": "https://stream.example.com/live/stream-2.m3u8",
+    "rtmpUrl": "rtmp://ingest.example.com/live/stream-2",
+    "streamKey": "live_0987654321",
+    "variants": [
+      {
+        "id": "1080p",
+        "bitrate": 6000000,
+        "resolution": "1920x1080",
+        "codec": "h264"
+      }
+    ],
+    "createdAt": "2025-07-01T11:58:08.384Z",
+    "updatedAt": "2025-07-01T11:58:08.385Z",
+    "startedAt": "2025-07-01T12:25:12.313Z",
+    "endedAt": "2025-07-01T12:25:25.469Z"
+  },
+  {
+    "id": "stream-0dd146b4-9d35-4097-ad07-3ca4befa04e1",
+    "contentId": "content-8d202914-8c16-40b3-a800-9b1eb144f651",
+    "status": "active",
+    "isLive": true,
+    "startTime": "2025-07-01T10:00:00Z",
+    "endTime": "2025-07-01T12:00:00Z",
+    "playbackUrl": "https://stream.example.com/live/stream-2.m3u8",
+    "rtmpUrl": "rtmp://ingest.example.com/live/stream-2",
+    "streamKey": "live_0987654321",
+    "variants": [
+      {
+        "id": "1080p",
+        "bitrate": 6000000,
+        "resolution": "1920x1080",
+        "codec": "h264"
+      }
+    ],
+    "createdAt": "2025-07-01T16:21:33.207Z",
+    "updatedAt": "2025-07-01T16:21:33.207Z",
+    "startedAt": "2025-07-02T16:21:33.221Z"
+  },
+  {
+    "id": "stream-8c061c34-7e5a-4c24-874d-d1fcf0a5cd8d",
+    "contentId": "content-8d202914-8c16-40b3-a800-9b1eb144f651",
+    "status": "active",
+    "isLive": true,
+    "startTime": "2025-07-02T10:00:00Z",
+    "endTime": "2025-07-02T12:00:00Z",
+    "playbackUrl": "https://stream.example.com/live/stream-2.m3u8",
+    "rtmpUrl": "rtmp://ingest.example.com/live/stream-2",
+    "streamKey": "live_0987654321",
+    "variants": [
+      {
+        "id": "1080p",
+        "bitrate": 6000000,
+        "resolution": "1920x1080",
+        "codec": "h264"
+      }
+    ],
+    "createdAt": "2025-07-02T16:28:50.344Z",
+    "updatedAt": "2025-07-02T16:28:50.344Z",
+    "startedAt": "2025-07-02T16:28:50.355Z"
+  },
+  {
+    "id": "stream-f55903a0-cfa1-43ab-9d56-e7ff541f03a7",
+    "contentId": "content-e80b986c-fe4f-4e44-85cd-f69ba170499a",
+    "status": "active",
+    "isLive": true,
+    "startTime": "2025-07-02T10:09:02.280Z",
+    "endTime": "2025-07-02T11:09:02.280Z",
+    "playbackUrl": "https://stream.example.com/live/stream-2.m3u8",
+    "rtmpUrl": "rtmp://ingest.example.com/live/stream-2",
+    "streamKey": "live_0987654321",
+    "variants": [
+      {
+        "id": "1080p",
+        "bitrate": 6000000,
+        "resolution": "1920x1080",
+        "codec": "h264"
+      }
+    ],
+    "createdAt": "2025-07-02T18:08:35.225Z",
+    "updatedAt": "2025-07-02T18:08:35.225Z",
+    "startedAt": "2025-07-02T18:08:35.240Z"
+  },
+  {
+    "id": "stream-12cfe5fc-db61-4c0b-97fc-c666aa79742b",
+    "contentId": "content-e80b986c-fe4f-4e44-85cd-f69ba170499a",
+    "status": "active",
+    "isLive": true,
+    "startTime": "2025-07-01T17:24:59.685Z",
+    "endTime": "2025-07-01T19:24:59.685Z",
+    "playbackUrl": "https://stream.example.com/live/stream-2.m3u8",
+    "rtmpUrl": "rtmp://ingest.example.com/live/stream-2",
+    "streamKey": "live_0987654321",
+    "variants": [
+      {
+        "id": "1080p",
+        "bitrate": 6000000,
+        "resolution": "1920x1080",
+        "codec": "h264"
+      }
+    ],
+    "createdAt": "2025-07-01T16:24:59.704Z",
+    "updatedAt": "2025-07-01T16:24:59.704Z",
+    "startedAt": "2025-07-01T18:24:59.716Z",
+    "endedAt": "2025-07-01T19:10:51.402Z"
+  }
+]
